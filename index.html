@@ -7,6 +7,7 @@
   <title>Portifólio</title>
   <link rel="stylesheet" href="estilo/style.css">
   <script src="javaScript/index.js"></script>
+  <link rel="stylesheet" href="stilo/mobilestyle.css">
 </head>
 
 <body>
@@ -32,10 +33,14 @@
           <button onclick="onClickScrollTo('ajuda')">Entrar em contato</button>
           <div>
             <div>
-              <a href="#"><img src="imagnes/logogithub.png" alt="GitHub"></a>
-              <a href="#"><img src="imagnes/logolinkedin.png" alt="Linkedin"></a>
-              <a href="#"><img src="imagnes/logoyoutube.png" alt="YouTube"></a>
-              <a href="#"><img src="imagnes/logoinsta.png" alt="Instagran"></a>
+              <a onclick="onClickLink('https://github.com/')" 
+              href="https://github.com/" target="_blank"><img src="imagnes/logogithub.png" alt="GitHub"></a>
+              <a onclick="OnclickLink('https://br.linkedin.com/')"
+              href="https://br.linkedin.com/" target="_blank"><img src="imagnes/logolinkedin.png" alt="Linkedin"></a>
+              <a onclick="onClickLink('https://www.youtube.com/')"
+              href="https://www.youtube.com/" target="_blank"><img src="imagnes/logoyoutube.png" alt="YouTube"></a>
+              <a onclick="onClickLink('https://www.instagram.com/')"
+              href="https://www.instagram.com/" target="_blank" ><img src="imagnes/logoinsta.png" alt="Instagran"></a>
             </div>
           </div>
       </div>
@@ -173,11 +178,12 @@
     <p>Estou a disposição para ajudar nos projetos de sua empresa</p>
     <div>
       <img src="imagnes/msg.png" alt="msg">
-      <p>xxxxxxxxxx@xxxx.com</p>
+      <a href="malito:email@exemplo.com">email@exemplo.com</a>
     </div>
     <div>
+      
       <img src="imagnes/telefone.png" alt="telefone">
-      <p>99999-9999</p>
+      <a href="tel:(79)99999-9999">(79) 99999-9999</a>
     </div>
   </section>
 

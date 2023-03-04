@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/*  PÁRA DISPOSITIVOS MOVEIS*/
+
+@media screen and (max-width: 357px){
+  section#header header h1{
+    font-size: 1.2em;
+    padding-left: 5px;
+    padding-bottom: 20px;
+  }
+  section#header{
+    padding-top: 20px;
+  }
+  section#header header div{
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+  }
+  section#header header div a{
+    padding-bottom: 10px;
+  }
+
+
+
+  section#main main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  section#main main div h1{
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  section#main main div p{
+    font-size: 0.9em;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  section#main main div button{
+    width: 150px;
+   
+    align-self: center;
+  }
+
+  section#main main div{
+    align-items: center;
+  }
+  section#main main div img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    
+    
+   
+  }
+  section#main main div div div {
+    padding-left: 188px ;
+    padding-bottom: 50px;
+  }
+  section#main main div div div a img{
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+  }
+
+
+  section#habilidades h1 {
+    font-size: 2.5em;
+    padding-top: 0px;
+  }
+
+
+  section#habilidades div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-self: center;
+    width: 1200px;
+  }
+  section#habilidades div div#a{
+    margin-right: 0px;
+  }
+  section#habilidades div div#c{
+    margin-left: 0px;
+  }
+  section#habilidades div div#a ul{
+    align-self: center;
+  }
+  section#habilidades div div#b ul{
+    align-self: center;
+  }
+  section#habilidades div div#c ul{
+    align-self: center;
+  }
+
+  section#portifolio div{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  section#experiencias div{
+    border: 3px solid black;
+    margin-top: 10px;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+  }
+  section#ajuda p{
+    font-size: 1.1em;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 10px;
+
+  }
+
+  footer{
+    font-size: 0.9em;
+    text-align: center;
+  }
+}
