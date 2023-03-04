@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portifólio</title>
   <link rel="stylesheet" href="estilo/style.css">
+  <script src="javaScript/index.js"></script>
 </head>
 
 <body>
@@ -13,11 +14,11 @@
     <header>
       <h1>Vinicius Antoniolli</h1>
       <div>
-        <a href="#">Habilidades</a>
-        <a href="#">Portifólio</a>
-        <a href="#">Experiencias</a>
+        <a onclick="onClickScrollTo('habilidades')" href="">Habilidades</a>
+        <a onclick="onClickScrollTo('portifolio')" href="">Portifólio</a>
+        <a onclick="onClickScrollTo('experiencias')" href="">Experiencias</a>
       </div>
-      <button>CONTATO</button>
+      <button onclick="onClickScrollTo('ajuda')">CONTATO</button>
     </header>
   </section>
 
@@ -28,7 +29,7 @@
           Sou o Vinicius Antoniolli.</h1>
           <p>Estudante de desenvolvimento web<br> desde Janeiro de 2023 com foco em FullStack!</p>
           
-          <button>Entrar em contato</button>
+          <button onclick="onClickScrollTo('ajuda')">Entrar em contato</button>
           <div>
             <div>
               <a href="#"><img src="imagnes/logogithub.png" alt="GitHub"></a>
