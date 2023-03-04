@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+.verde{
+  color: #219653;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+button:hover{
+  box-shadow: 3px 3px 3px rgb(11, 96, 5);
+}
+
+html, body{
+  
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+section#header{
+  background-color: gray;
+  padding-top: 50px;
+  
+}
+section#header header h1{
+  padding-left: 20px;
+}
+section#header header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 20px;
+}
+section#header header div{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+section#header header div a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+section#header header button{
+  width: 120px;
+  height: 56px;
+  border-radius: 16px;
+  background-color: #219653;
+  color: white;
+  cursor: pointer;
+}
+
+section#main{
+  background-color: lightblue;
+  padding-top: 60px;
+}
+
+section#main main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+section#main main div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section#main main div h1{
+  font-size: 2.5em;
+}
+
+section#main main div p{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+section#main main div button{
+  width: 300px;
+  height: 56px;
+  border-radius: 16px;
+  background-color: #219653;
+  color: white;
+  cursor: pointer;
+}
+section#main main div div div{
+  display: flex;
+  flex-direction: row;
+}
+
+section#main main div img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+}
+section#main main div div div {
+  padding-right: 200px;
+}
+section#main main div div div a img{
+  width: 40px;
+  height: 40px;
+}
+
+section#habilidades{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+section#habilidades h1 {
+  font-size: 2.5em;
+}
+section#habilidades div{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+section#habilidades div div#a{
+display: flex;
+flex-direction: column;
+border: 2px solid black;
+height: 10%;
+width: 25%;
+margin-right: 30px;
+border-radius: 30px;
+}
+section#habilidades div div#a h2{
+  text-align: center;
+  padding-top: 10px;
+}
+section#habilidades div div#a p{
+  text-align: center;
+  padding-top: 20px;
+}
+section#habilidades div div#a ul li{
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+section#habilidades div div#a img{
+  width: 120px;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+
+section#habilidades div div#b{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  height: 10%;
+  width: 25%;
+  border-radius: 30px;
+}
+section#habilidades div div#b h2{
+  text-align: center;
+  padding-top: 10px;
+}
+section#habilidades div div#b p{
+  text-align: center;
+  padding-top: 20px;
+}
+section#habilidades div div#b ul li{
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+section#habilidades div div#b img{
+  width: 120px;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+
+section#habilidades div div#c{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  height: 10%;
+  width: 25%;
+  margin-left: 30px;
+  border-radius: 30px;
+}
+section#habilidades div div#c h2{
+  text-align: center;
+  padding-top: 10px;
+}
+section#habilidades div div#c p{
+  text-align: center;
+  padding-top: 20px;
+}
+section#habilidades div div#c ul li{
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+section#habilidades div div#c img{
+  width: 120px;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+
+
+section#portifolio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+section#portifolio div{
+  display: flex;
+  
+}
+section#portifolio h1{
+  font-size: 2.5em;
+}
+
+section#portifolio div div{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  margin: 20px;
+  width: 260px;
+  border-radius: 30px;
+}
+section#portifolio div div h2{
+  margin: 30px;
+}
+section#portifolio div div p{
+  text-align: center;
+}
+section div div img{
+  width: 80px;
+  align-self: center;
+}
+
+section#portifolio div div div {
+  display: flex;
+  flex-direction: row;
+  padding-left: 150px;
+  border: none;
+  align-self: center;
+}
+section#portifolio div div div a img{
+  width: 20px;
+  height: 20px;
+  padding-left: 20px;
+}
