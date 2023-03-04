@@ -7,6 +7,7 @@
 *{
   margin: 0px;
   padding: 0px;
+  
 }
 
 button:hover{
@@ -21,23 +22,23 @@ html, body{
   height: 100vh;
 }
 section#header{
-  background-color: gray;
+  
   padding-top: 50px;
   
 }
 section#header header h1{
-  padding-left: 20px;
+  padding-left: px;
 }
 section#header header{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-right: 20px;
+  padding-right: px;
 }
 section#header header div{
   display: flex;
   justify-content: space-between;
-  width: 30%;
+  width: 20%;
 }
 section#header header div a{
   text-decoration: none;
@@ -55,7 +56,7 @@ section#header header button{
 }
 
 section#main{
-  background-color: lightblue;
+  
   padding-top: 60px;
 }
 
@@ -126,7 +127,7 @@ section#habilidades div div#a{
 display: flex;
 flex-direction: column;
 border: 2px solid black;
-height: 10%;
+height: 630px;
 width: 25%;
 margin-right: 30px;
 border-radius: 30px;
@@ -156,7 +157,7 @@ section#habilidades div div#b{
   display: flex;
   flex-direction: column;
   border: 2px solid black;
-  height: 10%;
+  height: 630px;
   width: 25%;
   border-radius: 30px;
 }
@@ -185,7 +186,7 @@ section#habilidades div div#c{
   display: flex;
   flex-direction: column;
   border: 2px solid black;
-  height: 10%;
+  height: 630px;
   width: 25%;
   margin-left: 30px;
   border-radius: 30px;
@@ -234,9 +235,11 @@ section#portifolio div div{
   margin: 20px;
   width: 260px;
   border-radius: 30px;
+  
 }
 section#portifolio div div h2{
   margin: 30px;
+  text-align: center;
 }
 section#portifolio div div p{
   text-align: center;
@@ -244,6 +247,7 @@ section#portifolio div div p{
 section div div img{
   width: 80px;
   align-self: center;
+  padding-top: 10px;
 }
 
 section#portifolio div div div {
@@ -257,4 +261,84 @@ section#portifolio div div div a img{
   width: 20px;
   height: 20px;
   padding-left: 20px;
+}
+
+section#experiencias{
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+section#experiencias h1{
+  font-size: 2.5em;
+}
+
+section#experiencias div{
+  border: 3px solid black;
+  margin-top: 10px;
+  width: 600px;
+  height: 90px;
+  border-radius: 20px;
+
+}
+section#experiencias div div{
+  border: none;
+  display: flex;
+  flex-direction: row;
+  
+}
+section#experiencias div div div{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 10px;
+  
+}
+section#experiencias div div div h2{
+  font-size: 1.1em;
+}
+section#experiencias div div div p{
+  font-size: 0.8em;
+  padding-top: 5px;
+}
+
+section#experiencias div div img{
+  width: 40px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  
+}
+
+section#ajuda{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+section#ajuda h1{
+  font-size: 2.5em;
+}
+section#ajuda p{
+  font-size: 1.1em;
+  padding-top: 10px;
+}
+section#ajuda div{
+  display: flex;
+  padding-top: 10px;
+}
+section#ajuda div img{
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+  
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 100px;
+  font-size: 1em;
 }
