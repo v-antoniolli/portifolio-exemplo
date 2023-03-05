@@ -2,7 +2,7 @@
 
 /*  PÁRA DISPOSITIVOS MOVEIS*/
 
-@media screen and (max-width: 450px){
+@media only screen and (max-device-width: 450px){
   section#header header div button{
     height: 20px;
     margin-top: 10px;
