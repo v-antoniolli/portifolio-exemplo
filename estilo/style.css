@@ -44,11 +44,6 @@ section#header header div{
   justify-content: space-between;
   width: 20%;
 }
-section#header header div a{
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
 
 section#header header button{
   width: 120px;
