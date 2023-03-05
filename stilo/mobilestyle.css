@@ -2,7 +2,7 @@
 
 /*  PÁRA DISPOSITIVOS MOVEIS*/
 
-@media only screen and (max-device-width: 450px){
+@media screen and (max-width: 450px){
   section#header header div button{
     height: 20px;
     margin-top: 10px;
@@ -10,9 +10,9 @@
     
     font-weight: bold;
   }
-  body{
-    width: 20vw;
-  }
+body, html {
+  max-width: 435px ;
+}
 
 
   section#header header h1{
@@ -92,13 +92,18 @@
     padding-left: 0px;
     padding-right: 0px;
     align-self: center;
-    width: 1200px;
+    
   }
   section#habilidades div div#a{
     margin-right: 0px;
+    width: 300px;
+  }
+  section#habilidades div div#b{
+    width: 300px;
   }
   section#habilidades div div#c{
     margin-left: 0px;
+    width: 300px;
   }
   section#habilidades div div#a ul{
     align-self: center;
@@ -134,5 +139,6 @@
   footer{
     font-size: 0.9em;
     text-align: center;
+    
   }
 }
