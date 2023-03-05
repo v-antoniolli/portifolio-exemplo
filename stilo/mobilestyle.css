@@ -10,7 +10,9 @@
     
     font-weight: bold;
   }
-
+  body{
+    width: 60vw;
+  }
 
 
   section#header header h1{
